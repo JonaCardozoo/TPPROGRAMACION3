@@ -19,7 +19,7 @@ public class Punto implements Comparable<Punto> {
 
     @Override
     public String toString() {
-        return (String.format(Locale.US, "(%.1F,%.1F)",x,y));
+        return (String.format(Locale.US, "(%.1f,%.1f)",x,y));
     }
 
     @Override
