@@ -13,6 +13,8 @@ public class Principal {
 		solucionarPuntoB(listaPunto);
 		solucionarPuntoC(listaPunto);
 		solucionarPuntoE(listaPunto);
+		solucionarPuntoG(listaPunto);
+		solucionarPuntoH(listaPunto);
 	}
 
 	private static String graficarLista(List<Punto> listaPuntos) {
@@ -52,7 +54,7 @@ public class Principal {
 	}
 
 	private static void solucionarPuntoE(List<Punto> listaPunto) {
-		System.out.println("Lista Ejercicio E");
+		System.out.println("Lista Ejercicio E \n");
 		double avgX = 0;
 		double avgY = 0;
 
@@ -68,6 +70,25 @@ public class Principal {
 				.collect(Collectors.toList());
 		System.out.println(graficarLista(listaE));
 		System.out.println("--- < -------------- > ---\n");
+	}
+
+	private static void solucionarPuntoG(List<Punto> listaPunto) {
+		System.out.println("--- Lista ejercicio G ---\n");
+		List<Punto> listaG = listaPunto.stream()
+				.filter(p -> Math.abs(p.getY() - Fx.fx(p.getX())) < 3)
+				.filter(p -> p.getY() >= Fx.fx(p.getX())).collect(Collectors.toList());
+		System.out.println(graficarLista(listaG));
+		System.out.println("--- < -------------- > ---\n");
+	}
+	
+	private static void solucionarPuntoH(List<Punto> listaPunto) {
+	    System.out.println("--- Lista ejercicio H ---\n");
+	    List<Punto> listaH = listaPunto.stream()	           
+	            .filter(p -> p.getX() >= 0)	         
+	            .filter(p -> p.getY() >= 0 && p.getY() <= Fx.fx(p.getX()))
+	            .collect(Collectors.toList());
+	    System.out.println(graficarLista(listaH));
+	    System.out.println("--- < -------------- > ---\n");
 	}
 
 }
