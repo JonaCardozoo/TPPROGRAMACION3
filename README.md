@@ -23,7 +23,8 @@ Filtrar y obtener una lista donde la diferencia entre la función F(x) y el punt
 Pm sea menor a 10, y además que esa diferencia sea mayor o igual a cero (es
 decir [0 <= F(x) – Py <= 10]).
 d. Imprimir por consola una lista de puntos del ejercicio b) y c) y graficarlo.
-e. Calcular el centroide de la lista de puntos: ![image](https://github.com/JonaCardozoo/TPPROGRAMACION3/assets/102664372/607a120d-3970-4173-ae82-f08e431c9cb5)
+e. Calcular el centroide de la lista de puntos: ![image](https://github.com/JonaCardozoo/TPPROGRAMACION3/assets/102664372/2570c733-d656-4e14-aec7-0cb4c8931726)
+
 
 y filtrar todos
 los puntos comprendidos en un radio de 5. La distancia entre dos puntos en el
