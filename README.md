@@ -2,10 +2,9 @@
 
 
 1. Dada la siguiente función matemática, se le pide que implemente los siguientes
-puntos:
-𝐹(𝑥) = 𝑥
-ଷ + 2 𝑥
-ଶ − 6 𝑥 + 2
+puntos: ![image](https://github.com/JonaCardozoo/TPPROGRAMACION3/assets/102664372/65776807-0d37-433a-b833-ad088722cc81)
+
+
 * Armar una clase Punto con los atributos (x,y) del tipo double.
 * Armar una lista con 100 puntos. Los puntos tienen que ser generados de forma
 aleatoria. El rango de aleatoriedad para la abscisa debe estar comprendido entre
