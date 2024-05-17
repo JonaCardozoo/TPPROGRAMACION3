@@ -6,7 +6,11 @@ import java.util.stream.Collectors;
 public class Principal {
 
 	public static void main(String[] args) {
-
+		
+		
+		//Puntos graficados: https://www.geogebra.org/graphing/vjhdbjdn
+		
+		
 		List<Punto> listaPunto = ListaPuntos.getListPuntos();
 
 		solucionarPuntoA(listaPunto);
@@ -51,7 +55,7 @@ public class Principal {
 	}
 
 	private static void solucionarPuntoE(List<Punto> listaPunto) {
-		System.out.println("Lista Ejercicio E");
+		System.out.println("--- Lista ejercicio E ---\n");
 		double avgX = 0;
 		double avgY = 0;
 
